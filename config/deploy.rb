@@ -1,4 +1,4 @@
-server '127.0.0.1', port: 2222, roles: [:web, :app, :db], primary: true
+server 'localhost', port: 2222, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:talonfast/mason-vagrant.git'
 set :application,     'mason'
