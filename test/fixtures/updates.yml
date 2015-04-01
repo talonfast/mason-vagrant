@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  water_level: MyString
+  water_temp: MyString
+  air_temp: MyString
+  humidity: MyString
+
+two:
+  water_level: MyString
+  water_temp: MyString
+  air_temp: MyString
+  humidity: MyString

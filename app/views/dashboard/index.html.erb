@@ -1,0 +1,91 @@
+<% if true %>
+	<!--
+							 _
+	 _._ _..._ .-',     _.._(`))    THE CODE AHEAD IS VERY CODE-LIKE
+	'-. `     '  /-._.-'    ',/     HERE'S A SAFETY PIG, FOR YOUR BENEFIT
+	   )         \            '.
+	  / _    _    |             \
+	 |  a    a    /              |
+	 \   .-.                     ;
+	  '-('' ).-'       ,'       ;
+		 '-;           |      .'
+			\           \    /
+			| 7  .__  _.-\   \
+			| |  |  ``/  /`  /
+		   /,_|  |   /,_/   /
+			  /,_/      '`-'
+	-->
+<% end %>
+<head>
+  <%= stylesheet_link_tag 'dashboard' %>
+  <%= javascript_include_tag 'dashboard' %>
+</head>
+<body>
+	<nav class="top-bar" data-topbar>
+	  <ul class="title-area">
+
+		<li class="name">
+		  <h1>
+			<a href="#">
+			  Mason Street Farm
+			</a>
+		  </h1>
+		</li>
+	  </ul>
+	  <section class="top-bar-section">
+		<ul class="right">
+		  <li class="name">
+			<h1>
+				<a id="time"></a>
+			</h1>
+		  </li>
+		</ul>
+	  </section>
+	</nav>
+
+
+	<h3></h3>
+        <div class="row error">
+          <div class="large-12 columns">
+            <div class="panel text-center">
+              <h1>Connection Failure</h1>
+              <%= image_tag 'PERLHelp.png' %>
+            </div>
+          </div>
+        </div>
+
+	<div class="row">
+	  <div class="large-6 columns">
+		<div class="panel">
+		  <h5>Water Temperature</h5>
+
+		  <h3 id="wt">--° C</h3>
+		</div>
+	  </div>
+	  <div class="large-6 columns">
+		<div class="panel">
+		  <h5>Water Level</h5>
+
+		  <h3 id="wl">-- cm</h3>
+		</div>
+	  </div>
+
+	</div>
+
+	<div class="row">
+	  <div class="large-6 columns">
+		<div class="panel">
+		  <h5>Air Temperature</h5>
+
+		  <h3 id="at">° C</h3>
+		</div>
+	  </div>
+	  <div class="large-6 columns">
+		<div class="panel">
+		  <h5>Humidity</h5>
+
+		  <h3 id="h">%</h3>
+		</div>
+	  </div>
+	</div>
+</body>
